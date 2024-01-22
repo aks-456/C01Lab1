@@ -26,7 +26,6 @@ import { View, TextInput, Button, StyleSheet, Keyboard } from 'react-native';
         <Button title="Add Task" onPress={handleAddTask} />
       </View>
   
-      //we'll implement this soon
     );
   };
 
