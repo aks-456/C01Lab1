@@ -14,7 +14,7 @@ import { View, TextInput, Button, StyleSheet, Keyboard } from 'react-native';
    
 
     return (
-        <View style={styles.addTask}>
+        <View style={styles.addTaskForm}>
         <TextInput
           style={styles.input}
           placeholder="Enter Task"
@@ -31,7 +31,7 @@ import { View, TextInput, Button, StyleSheet, Keyboard } from 'react-native';
 
 
 const styles = StyleSheet.create({
-    addTodoForm: {
+    addTaskForm: {
       margin: 10,
     },
     input: {
